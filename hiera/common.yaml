@@ -1,0 +1,15 @@
+---
+users_common:
+  bogdan:
+    ensure: present
+    uid: 500
+    groups:
+      - sudo
+    comment: Me, myself and I
+    managehome: true
+    password: '$6$9WGl.tLxy$AIZxY7Lt5Kl5tDiWOadBTPrLCLKFzLHbgd4E1ARJ3l0p5eY8vFYAf1ZS9mgMZIjA1xImCrpRAY9LA5wvcNf7Y.'
+    shell:  /bin/bash
+    ssh_authorized_keys:
+      userkey:
+        type: 'ssh-rsa'
+        key:  'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDYIv36kXiddT1cBvrqmE5fe3lhWMDwQOBrhnxmN8ucs1UIyXKPDRdbivPokXXfbyGQxlTDbRqJrpNYgps3XKYGiHLjN8pN3CaPcdf6HyUqGY+KvABGdGGdJWgXhxht69yX40WqNWhAww3DSKnBgi/n8TWhGaAqsJ+bCF5U+Qv6p4dsmhZZFa3oKtmIwYPU91YiKIP7VE4CYSm1MRPJU0FRr+yv9Ryxr4bjXfta6ra9ab/6M5WYduhcd0yrKVZawQht9n6rGhFcQNGOPaHe9g+h9/AXre4CoCrmOmlvsKyAeXCCxvRVQtXBjC1+Ael79VAuz40wLjdyBDZw9n6KN5nl bmutziu@bmapp00-dev'
